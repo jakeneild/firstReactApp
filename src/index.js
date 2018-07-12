@@ -9,6 +9,6 @@ ReactDOM.render((
     <Router>
         <KennelCompany />
     </Router>
-), document.querySelector("#root"))
+), document.getElementById("root"))
 
 registerServiceWorker();
