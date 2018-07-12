@@ -2,16 +2,21 @@ import React, { Component } from 'react'
 
 
 export default class Locationlist extends Component {
+    state = {
+        locations: [
+            { id: 1, name: "12 South"},
+            { id: 2, name: "3rd and Western"},
+            { id: 3, name: "Clarksville"}
+        ]
+    }
     render() {
         return (
             <React.Fragment>
-            {
-                this.props.locations.map(location =>
-                    <div>
-                        {location.name}
-                    </div>
-                )
-            }
+                <ul>
+                {
+                    this.state.locations.map(location =>  <li>{location.name}</li> )
+                }
+                </ul>
             </React.Fragment>
         )
     }

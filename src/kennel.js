@@ -1,3 +1,6 @@
+//This is old and not used anymore.  Each of the component states are moved to 
+//their own files
+
 import React, { Component } from "react"
 import EmployeeList from "./employeeList"
 import LocationList from "./LocationList"
