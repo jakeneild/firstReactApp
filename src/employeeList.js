@@ -8,7 +8,7 @@ export default class EmployeeList extends Component {
             {
                 this.props.employees.map(employee =>
                     <div>
-                        {employee}
+                        {employee.name}
                     </div>
                 )
             }

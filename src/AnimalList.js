@@ -8,7 +8,7 @@ export default class AnimalList extends Component {
             {
                 this.props.animals.map(animal =>
                     <div>
-                        {animal}
+                        {animal.name}
                     </div>
                 )
             }

@@ -8,7 +8,7 @@ export default class Locationlist extends Component {
             {
                 this.props.locations.map(location =>
                     <div>
-                        {location}
+                        {location.name}
                     </div>
                 )
             }
